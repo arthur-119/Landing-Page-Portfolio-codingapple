@@ -1,0 +1,47 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+body {
+    margin: 0;
+    font-family: 'NanumSquare';
+}
+
+div {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+.main-background {
+    background: linear-gradient(to bottom, #499add, #4e61c0);
+    height: 550px;
+    padding: 20px;
+    color: white;
+}
+
+.iphone {
+    width: 400px;
+    float: right;
+    margin-top: 95px;
+}
+
+.main-text {
+    float: left;
+    margin-top: 50px;
+}
+
+.btn {
+    background-color: #444;
+    color: white;
+    font-family: 'NanumSquare';
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+}
