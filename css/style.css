@@ -42,6 +42,12 @@ h5 {
     margin-top: 50px;
 }
 
+
+.main-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
 .btn {
     background-color: #444;
     color: white;
@@ -103,13 +109,61 @@ h5 {
 /* ------------------------------------------- */
 
 .portfolio {
-    padding: 60px 30px 50px 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
 }
 
-.portfolio-container p {
+.portfolio-name p {
     margin: 0px;
 }
 
-.portfolio-container h4 {
+.portfolio-name h4 {
     margin-top: 0px;
+    width: 100%;
 }
+
+.portfolio-item1 {
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/portfolio-1.jpg);
+    background-size: cover;
+}
+
+.portfolio-item2 {
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/portfolio-2.jpg);
+    background-size: cover;
+}
+
+.portfolio-item3 {
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/portfolio-3.jpg);
+    background-size: cover;
+}
+
+.portfolio-item4 {
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/portfolio-4.jpg);
+    background-size: cover;
+}
+
+.portfolio-container {
+    text-align: left;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .portfolio-text {
+    color: white;
+    padding: 50px;
+    padding-top: 30%;
+    width: 100%;
+  } 
