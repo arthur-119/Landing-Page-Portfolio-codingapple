@@ -27,7 +27,7 @@ h5 {
 .main-background {
     background: linear-gradient(to bottom, #499add, #4e61c0);
     height: 550px;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
     color: white;
 }
 
@@ -60,6 +60,10 @@ h5 {
 }
 
 @media screen and (max-width: 992px) {
+    .main-background {
+        height: 100%;
+    }
+
     .main-text {
         text-align: center;
         float: none;
@@ -71,6 +75,7 @@ h5 {
         width: 260px;
         display: block;
         margin: auto;
+        /* margin-bottom: 0; */
         margin-top: 42px;
 
     }
